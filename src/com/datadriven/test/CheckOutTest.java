@@ -24,8 +24,8 @@ public class CheckOutTest {
 		System.out.println("Chrome browser launced successfully");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		driver .get("https://buy.norton.com/ps?selSKU=21258941&ctry=US&lang=en&tppc=ECBA161D-8ECF-365C-B4F2-88ECD4E7CE3E&ptype=cart");
 		
